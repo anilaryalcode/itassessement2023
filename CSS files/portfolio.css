@@ -1,0 +1,24 @@
+/* Portfolio Styles */
+.portfolio {
+    padding: 20px;
+}
+
+.activity {
+    margin: 20px 0;
+    padding: 10px;
+    border: 1px solid #ccc;
+    background-color: #f2f2f2;
+}
+
+.activity h3 {
+    margin: 0 0 10px;
+}
+
+.activity a {
+    color: #0077cc;
+    text-decoration: none;
+}
+
+.activity a:hover {
+    text-decoration: underline;
+}

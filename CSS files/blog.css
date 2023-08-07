@@ -1,0 +1,26 @@
+/* Blog Styles */
+.blog h2{
+    color: white;
+    }
+    .blog-post {
+        display: flex;
+        align-items: center;
+        margin: 10px 0;
+        color: white;
+    }
+    
+    .blog-post img {
+        width: 150px;
+        height: auto;
+        margin-right: 20px;
+    }
+    
+    .blog-post h3 {
+        margin: 0;
+        color: orange;
+    }
+    
+    .blog-post p {
+        margin: 10px 0;
+        color: white;
+    }

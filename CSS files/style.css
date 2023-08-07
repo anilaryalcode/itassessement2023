@@ -1,0 +1,233 @@
+body {
+    max-width: 1320px;
+    margin: auto;
+    font-family: Arial, sans-serif;
+    background-color: #f2f2f2;
+  }
+  nav {
+    background-color: #f17f0c;
+    overflow: hidden;
+  }
+  
+  nav a {
+    float: left;
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+  }
+  
+  nav a:hover {
+    background-color: #ddd;
+    color: black;
+  }
+  
+
+  .footer {
+    background-color: #333;
+    color: white;
+    padding: 10px;
+    text-align: center;
+  }
+  
+
+/* Slider Styles */
+.slider {
+    width: 100%;
+    height: 500px;
+    overflow: hidden;
+    position: relative;
+}
+
+.slide {
+    width: 100%;
+    height: 500px;
+    position: absolute;
+    transition: opacity 1s;
+    opacity: 0;
+}
+
+/* About Section */
+.about {
+    padding: 20px;
+    background-color: #f9f9f9;
+    text-align: center;
+}
+
+/* Programs Section */
+.programs {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    padding: 20px;
+}
+
+.program {
+    width: 30%;
+    text-align: center;
+}
+
+.program img {
+    width: 100%;
+}
+
+/* Call to Action */
+.cta {
+    background-color: #333;
+    color: white;
+    text-align: center;
+    padding: 20px;
+}
+
+.cta a {
+    color: #f9f9f9;
+    text-decoration: none;
+    padding: 10px 20px;
+    background-color: red;
+    display: inline-block;
+}
+  /* Gallery Styles */
+.gallery {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    padding: 20px;
+    color: #f17f0c;
+}
+
+.image {
+    width: 30%;
+    padding: 10px;
+    box-sizing: border-box;
+}
+
+.image img {
+    width: 100%;
+    height: auto;
+    transition: transform .2s; /* Animation */
+}
+
+.image img:hover {
+    transform: scale(1.1); /* Zoom on Hover */
+}
+
+.image a {
+    display: block;
+}
+/* Contact Form Styles */
+.contact {
+    padding: 20px;
+    color: #f17f0c;
+}
+
+#contact-form {
+    max-width: 500px;
+    margin: auto;
+}
+
+input, textarea {
+    width: 100%;
+    padding: 10px;
+    margin: 10px 0;
+    border: 1px solid #ccc;
+    box-sizing: border-box;
+}
+
+textarea {
+    height: 100px;
+    resize: vertical;
+}
+
+input[type="submit"] {
+    background-color: red;
+    color: white;
+    cursor: pointer;
+}
+
+#error-message {
+    color: red;
+}
+/* Resume Styles */
+.resume {
+    padding: 20px;
+}
+
+table {
+    width: 100%;
+    border-collapse: collapse;
+    margin: 20px 0;
+}
+
+th, td {
+    
+    padding: 10px;
+    text-align: left;
+}
+
+th {
+    background-color: #f2f2f2;
+}
+
+/* Nested Table Styles */
+table table {
+    width: auto;
+    margin: 0;
+}
+
+table table td {
+    border: none;
+    padding: 0;
+    text-align: left;
+}
+/* Blog Styles */
+.blog h2{
+color: white;
+}
+.blog-post {
+    display: flex;
+    align-items: center;
+    margin: 10px 0;
+    color: white;
+}
+
+.blog-post img {
+    width: 150px;
+    height: auto;
+    margin-right: 20px;
+}
+
+.blog-post h3 {
+    margin: 0;
+    color: orange;
+}
+
+.blog-post p {
+    margin: 10px 0;
+    color: white;
+}
+
+/* Portfolio Styles */
+.portfolio {
+    padding: 20px;
+}
+
+.activity {
+    margin: 20px 0;
+    padding: 10px;
+    border: 1px solid #ccc;
+    background-color: #f2f2f2;
+}
+
+.activity h3 {
+    margin: 0 0 10px;
+}
+
+.activity a {
+    color: #0077cc;
+    text-decoration: none;
+}
+
+.activity a:hover {
+    text-decoration: underline;
+}
